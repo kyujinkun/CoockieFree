@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+  /* width: 500px; */
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  background-color: khaki;
+  border-bottom: 3px solid rgb(67, 36, 7);
+}
+.pic img {
+  width: 200px;
+  height: 100px;
+  margin-left: 20px;
+}
+.PicTitle {
+  display: flex;
+  align-items: center;
+}
+.title h1 {
+  background: linear-gradient(rgb(119, 64, 12), rgb(155, 123, 75));
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.links {
+  display: flex;
+}
+ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  background: linear-gradient(
+    rgb(67, 36, 7),
+    rgb(155, 123, 75),
+    rgb(255, 196, 0)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  margin-left: 20px;
+}
+section {
+  background-image: linear-gradient(
+    to right,
+    rgb(223, 193, 21),
+    rgb(136, 95, 32),
+    rgb(67, 36, 7)
+  );
+  height: calc(100vh - 106px);
+  display: flex;
+  flex-direction: column;
+  padding-top: 150px;
+  padding-left: 50px;
+  color: aliceblue;
+}
+.bigTitle h2 {
+  font-size: 3.5rem;
+}
+.description p {
+  width: 600px;
+  margin-top: 30px;
+}
+.click button {
+  width: 200px;
+  height: 50px;
+  margin-top: 30px;
+  cursor: pointer;
+  border-radius: 45px;
+  background-image: linear-gradient(
+    to right,
+    rgb(67, 36, 7),
+    rgb(136, 95, 32),
+    rgb(223, 193, 21)
+  );
+  color: aliceblue;
+}
